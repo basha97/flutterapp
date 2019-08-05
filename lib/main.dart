@@ -9,7 +9,7 @@ void main() => runApp(MaterialApp(
     backgroundColor: Colors.blueGrey[900],
     body: Center(
       child: Image(
-        image: NetworkImage('https://ezfleets.com/backend/images/logo.png'),
+        image: AssetImage('images/logo.png'),
       ),
     ),
   ),
